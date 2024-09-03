@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
+import { Testimonial } from "../Testimonial/Testimonial";
+import { TestimonialImage } from "../TestimonialImage/TestimonialImage";
+import "./App.css";
 
 function App() {
   return (
-    <>
-      <p>Hello, World!</p>
-    </>
+    <main className="app">
+      <section className="app__section">
+        <TestimonialImage />
+        <Testimonial />
+      </section>
+    </main>
   );
 }
 

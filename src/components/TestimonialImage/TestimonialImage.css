@@ -1,0 +1,59 @@
+/* Mobile styles */
+.testimonialImage {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.testimonialImage__figure {
+  width: 100%;
+  height: 19.25rem;
+  background-image: url('../../assets/images/pattern-bg.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 1.875rem 36.5008px 1.5625rem;
+}
+
+.testimonialImage__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #EBEBEB;
+  box-shadow: 0px 40px 50px -30px rgba(36, 36, 113, 0.495001);
+  border-radius: 5px;
+}
+
+.testimonialImage__container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: .3125rem;
+}
+
+.testimonialImage__controls {
+  display: flex;
+  width: 5rem;
+  height: 2.5rem;
+  background: #FFFFFF;
+  box-shadow: 0px 15px 20px -10px rgba(36, 36, 113, 0.0991313);
+  border-radius: 28px;
+}
+
+.testimonialImage__control {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialImage__icon {
+  width: .75rem;
+  height: 1.125rem;
+}
+
+/* 
+AppSection se termino
+Testimonialtext se termino
+Testimonialcontrols se termino -> pendiente de posicionar al final **
+TestimonialImage se termino
+*/

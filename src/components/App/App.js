@@ -7,8 +7,8 @@ function App() {
   return (
     <main className="app">
       <section className="app__section">
-        <TestimonialImage />
-        <Testimonial />
+        <Testimonial className="app__testimonial"/>
+        <TestimonialImage className="app__testimonialImage"/>
       </section>
     </main>
   );

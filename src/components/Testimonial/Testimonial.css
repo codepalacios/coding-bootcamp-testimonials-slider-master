@@ -1,13 +1,14 @@
 /* Mobile styles */
 .testimonial {
-  padding: 1.5625rem 8px 0;
+  order: 2;
+  padding: 1.5625rem 32px 4.6875rem;
   background-image: url('../../assets/images/pattern-quotes.svg');
   background-repeat: no-repeat;
-  background-size: 3.75rem 3.125rem;
   background-position: top center;
-  text-align: center;
-  font-family: "Inter", sans-serif;
+  background-size: 3.75rem 3.125rem;
+  font-family: 'Inter';
   font-style: normal;
+  text-align: center;
   color: #202047;
 }
 
@@ -18,7 +19,7 @@
   margin-bottom: 1.1875rem;
 }
 
-.testimonial__author-info{
+.testimonial__author-info {
   font-size: .9375rem;
   line-height: 1.25rem;
 }
@@ -26,6 +27,7 @@
 .testimonial__author {
   display: block;
   font-weight: 700;
+
 }
 
 .testimonial__position {

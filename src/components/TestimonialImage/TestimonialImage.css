@@ -53,3 +53,44 @@
   width: .5rem;
   height: 1rem;
 }
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .testimonialImage {
+    order: 2;
+    padding: 0;
+    position: absolute;
+    top: 3.125rem;
+    right: 73px;
+    width: 48.403%;
+  }
+
+  .testimonialImage__figure {
+    height: 41.0625rem;
+    display: block;
+  }
+
+  .testimonialImage__img {
+    width: 77.475%;
+    max-width: 33.75rem;
+    height: 33.75rem;
+    margin-top: 3.9375rem;
+    margin-left: 65px;
+  }
+
+  .testimonialImage__container {
+    left: 127px;
+    transform: none;
+    bottom: 1.6875rem;
+  }
+
+  .testimonialImage__controls {
+    width: 7rem;
+    height: 3.5rem;
+  }
+
+  .testimonialImage__icon {
+    width: .75rem;
+    height: 1.25rem;
+  }
+}

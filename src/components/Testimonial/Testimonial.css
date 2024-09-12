@@ -27,10 +27,40 @@
 .testimonial__author {
   display: block;
   font-weight: 700;
-
 }
 
 .testimonial__position {
   font-weight: 500;
   color: #B9B9CE;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .testimonial {
+    order: 1;
+    margin: 13.375rem 0 2rem 165px;
+    padding: 4rem 0 0;
+    background-position: top left 5.9375rem;
+    background-size: 7.5rem 6.25rem;
+    text-align: start;
+    max-width: 44.098%;
+    z-index: 1;
+  }
+
+  .testimonial__text {
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1.5px;
+  }
+
+  .testimonial__author-info {
+    font-size: 1.25rem;
+    line-height: 2.375rem;
+  }
+  
+  .testimonial__author {
+    display: inline;
+    margin-right: 10px;
+  }
 }

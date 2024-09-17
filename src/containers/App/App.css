@@ -1,7 +1,7 @@
 /* Mobile styles */
 .app {
   min-height: 100vh;
-  background-image: url('../../assets/images/pattern-curve.svg');
+  background-image: url("../../assets/images/pattern-curve.svg");
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 76%;

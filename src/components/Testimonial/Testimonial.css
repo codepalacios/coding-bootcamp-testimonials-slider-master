@@ -2,11 +2,11 @@
 .testimonial {
   order: 2;
   padding: 1.5625rem 32px 4.6875rem;
-  background-image: url('../../assets/images/pattern-quotes.svg');
+  background-image: url("../../assets/images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 3.75rem 3.125rem;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   text-align: center;
   color: #202047;
@@ -20,7 +20,7 @@
 }
 
 .testimonial__author-info {
-  font-size: .9375rem;
+  font-size: 0.9375rem;
   line-height: 1.25rem;
 }
 
@@ -31,7 +31,7 @@
 
 .testimonial__position {
   font-weight: 500;
-  color: #B9B9CE;
+  color: #b9b9ce;
 }
 
 /* Desktop styles */
@@ -58,7 +58,7 @@
     font-size: 1.25rem;
     line-height: 2.375rem;
   }
-  
+
   .testimonial__author {
     display: inline;
     margin-right: 10px;

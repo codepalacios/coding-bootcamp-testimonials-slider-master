@@ -1,17 +1,18 @@
-import React from "react";
-import Data from "../../data/testimonials.json";
+import React, { useContext } from "react";
+import { TestimonialContext } from "../../context/TestimonialContext";
 import "./Testimonial.css";
 
 function Testimonial() {
-  // Extraer datos de testimonios del archivo JSON
-  const testimonial = Data.testimonials[0];
+  const { currentTestimonial } = useContext(TestimonialContext);
 
   return (
     <article className="testimonial">
-      <p className="testimonial__text">{testimonial.testimonial}</p>
+      <p className="testimonial__text">{currentTestimonial.testimonial}</p>
       <div className="testimonial__author-info">
-        <span className="testimonial__author">{testimonial.author}</span>
-        <span className="testimonial__position">{testimonial.position}</span>
+        <span className="testimonial__author">{currentTestimonial.author}</span>
+        <span className="testimonial__position">
+          {currentTestimonial.position}
+        </span>
       </div>
     </article>
   );

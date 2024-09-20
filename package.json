@@ -1,7 +1,9 @@
 {
   "name": "coding-bootcamp-testimonials-slider-master",
   "version": "0.1.0",
+  "description": "Frontend Mentor Coding bootcamp testimonials slider challenge",
   "private": true,
+  "author": "codepalacios",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

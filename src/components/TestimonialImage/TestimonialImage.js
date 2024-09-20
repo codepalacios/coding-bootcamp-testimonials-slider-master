@@ -4,7 +4,9 @@ import { ReactComponent as IconPrev } from "../../assets/images/icon-prev.svg";
 import { ReactComponent as IconNext } from "../../assets/images/icon-next.svg";
 import "./TestimonialImage.css";
 
+// Component that displays the image of a testimonial and allows you to navigate between them.
 function TestimonialImage() {
+  // We access the Testimonial context and obtain the functions to navigate between testimonials.
   const { currentTestimonial, nextTestimonial, prevTestimonial } =
     useContext(TestimonialContext);
 

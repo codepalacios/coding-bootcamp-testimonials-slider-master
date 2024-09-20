@@ -4,6 +4,10 @@ import { Testimonial } from "../../components/Testimonial/Testimonial";
 import { TestimonialImage } from "../../components/TestimonialImage/TestimonialImage";
 import "./App.css";
 
+/**
+ * Main application container that renders a context provider 
+ * for the testimonials and two child components.
+ */
 function App() {
   return (
     <TestimonialProvider>
